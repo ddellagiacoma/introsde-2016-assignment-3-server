@@ -73,7 +73,7 @@ $ git add .
 
 $ git commit -m "first commit"
 
-$ heroku create --stack cedar --buildpack https://github.com/ddellagiacoma/heroku-buildpack-ant
+$ heroku create <app-name> --region eu --buildpack https://github.com/ddellagiacoma/heroku-buildpack-ant
 
 $ git push heroku master
 ```
